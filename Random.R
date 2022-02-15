@@ -34,3 +34,5 @@ a <- geo_hap[,1]
 b <- as.data.frame(hapmap[,1])
 c <- rbind(a,b)
 write.csv(c,"uniquemaps.csv")
+
+print("Hello")
